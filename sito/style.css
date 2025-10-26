@@ -1,6 +1,4 @@
-#logo {
-    background-image: ur;
-}
+
 
 body {
     margin: 0;
@@ -83,23 +81,35 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-#docs-container h1,h2,h3,a {
+#docs-container h1 {
     color: #505ab4;
     font-size: 2.5em;
     font-weight: bold;
 }
 
+#docs-container h2,h3 {
+    color: #9ea6f3;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
 #docs-container a {
+    font-size: 2.5em;
+    font-weight: bold;
     text-decoration: none;
-    transition: color 0.3s;
+    color: #cfd3f6;
+    display: block;
+    padding-left: 0.8em; /* spazio per il triangolo */
+    position: relative;
 }
 
 #docs-container a:hover {
     background-image: linear-gradient(to right, rgb(80, 90, 180, 0.2), transparent);;
 }
 
-#docs-container ul {
-    margin: 0;
+#CANDIDATURA, #PB, #RTB {
+    margin-bottom: 8em;
+    scroll-margin-top: 13em;
 }
 
 #candidatura-container {
@@ -120,6 +130,35 @@ nav ul li a:hover {
 .mini-titolo {
     margin-bottom: 0.1em;
     margin-top: 0;
+}
+
+
+#docs-container a::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #6e27e0; 
+}
+
+/*========================================*/
+/*========================================*/
+/*========================================*/
+
+#CHI-SIAMO h1 {
+    margin-bottom: 0.3em;
+}
+
+#CHI-SIAMO p {
+    margin-top: 0;
+    font-size: 2em;
+    color: #9ea6f3;
 }
 
 
