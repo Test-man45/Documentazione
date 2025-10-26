@@ -61,7 +61,7 @@ nav ul li a:hover {
 
 }
 
-@media (max-width: 50em) {
+@media screen and (max-width: 50em) {
     nav ul {
       flex-direction: column;
       gap: 10px;
@@ -75,8 +75,8 @@ nav ul li a:hover {
 
 
 #docs-container {
-    padding: 12em 4em 0 4em; 
-    width: 90%;
+    padding: 12em 0 0 0; 
+    width: 60%;
     max-width: 1200px;
     margin: 0 auto;
 }
