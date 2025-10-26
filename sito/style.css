@@ -5,19 +5,20 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #292929;
+    background-color: #111111;
 }
 
 header {
     background-color: #000;
     color: white;
-    padding: 15px 0;
+    padding: 1em 0;
     display: flex;
     position: fixed;   /* fissa l’header in alto */
     top: 0;            /* posizione in cima alla pagina */
     left: 0;           /* allineamento a sinistra */
     width: 100%;       /* occupa tutta la larghezza della finestra */
     z-index: 1000;
+    height: 10em;
 }
 
 .container {
@@ -49,15 +50,17 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
+    color: #505ab4;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: all 0.3s ease;
     font-size: 1.8em;
 }
 
 nav ul li a:hover {
     color: #5715f1;
+    text-shadow: 0 0 3px #6121f6;
+
 }
 
 @media (max-width: 50em) {
@@ -67,3 +70,56 @@ nav ul li a:hover {
       align-items: center;
     }
 }
+
+/*========================================*/
+/*========================================*/
+/*========================================*/
+
+
+#docs-container {
+    padding: 12em 4em 0 4em; 
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#docs-container h1,h2,h3,a {
+    color: #505ab4;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#docs-container a {
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#docs-container a:hover {
+    background-image: linear-gradient(to right, rgb(80, 90, 180, 0.2), transparent);;
+}
+
+#docs-container ul {
+    margin: 0;
+}
+
+#candidatura-container {
+    padding-left: 3em;
+    border-left: 4px solid rgb(56, 11, 163);
+}
+
+#verbali-candidatura-container {
+    padding-left: 3em;
+    border-left: 4px solid rgb(56, 11, 163);
+}
+
+#verbali-candidatura-esterni, #verbali-candidatura-interni {
+    padding-left: 3em;
+    border-left: 4px solid rgb(56, 11, 163);
+}
+
+.mini-titolo {
+    margin-bottom: 0.1em;
+    margin-top: 0;
+}
+
+
