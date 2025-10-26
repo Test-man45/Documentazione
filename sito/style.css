@@ -147,6 +147,20 @@ nav ul li a:hover {
   border-left: 8px solid #6e27e0; 
 }
 
+@media screen and (max-width: 40em) {
+    #docs-container h1 {
+        font-size: 1.5em; 
+    }
+
+    #docs-container h2,h3 {
+        font-size: 1.5em;
+    }
+
+    #docs-container a {
+        font-size: 1.5em;
+    }
+}
+
 /*========================================*/
 /*========================================*/
 /*========================================*/
@@ -160,5 +174,12 @@ nav ul li a:hover {
     font-size: 2em;
     color: #9ea6f3;
 }
+
+@media screen and (max-width: 50em) {
+    #CHI-SIAMO p {
+        font-size: 1.3em;
+    }
+}
+
 
 
