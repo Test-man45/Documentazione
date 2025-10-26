@@ -13,6 +13,11 @@ header {
     color: white;
     padding: 15px 0;
     display: flex;
+    position: fixed;   /* fissa l’header in alto */
+    top: 0;            /* posizione in cima alla pagina */
+    left: 0;           /* allineamento a sinistra */
+    width: 100%;       /* occupa tutta la larghezza della finestra */
+    z-index: 1000;
 }
 
 .container {
@@ -30,7 +35,7 @@ header {
     gap: 15px;
 }
 
-.logo {
+#logo {
     height: 10em; 
     width: auto;
 }
@@ -38,7 +43,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 20px;
+    gap: 3em;
     margin: 0;
     padding: 0;
 }
@@ -56,13 +61,9 @@ nav ul li a:hover {
 }
 
 @media (max-width: 600px) {
-    .container {
-      flex-direction: column;
-      gap: 10px;
-    }
-
     nav ul {
       flex-direction: column;
       gap: 5px;
+      align-items: center;
     }
 }
