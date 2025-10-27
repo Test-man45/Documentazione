@@ -117,17 +117,11 @@ nav ul li a:hover {
     scroll-margin-top: 13em;
 }
 
-#candidatura-container {
-    padding-left: 3em;
-    border-left: 4px solid rgb(56, 11, 163);
-}
 
-#verbali-candidatura-container {
-    padding-left: 3em;
-    border-left: 4px solid rgb(56, 11, 163);
-}
-
-#verbali-candidatura-esterni, #verbali-candidatura-interni {
+#candidatura-container, 
+#verbali-candidatura-container, 
+#verbali-candidatura-esterni, 
+#verbali-candidatura-interni {
     padding-left: 3em;
     border-left: 4px solid rgb(56, 11, 163);
 }
@@ -147,9 +141,9 @@ nav ul li a:hover {
   
   width: 0;
   height: 0;
-  border-top: 5px solid transparent;
-  border-bottom: 5px solid transparent;
-  border-left: 8px solid #6e27e0; 
+  border-top: 9px solid transparent;
+  border-bottom: 9px solid transparent;
+  border-left: 14px solid #6e27e0; 
 }
 
 @media screen and (max-width: 600px) {
@@ -164,6 +158,14 @@ nav ul li a:hover {
     #docs-container a {
         font-size: 1.5em;
     }
+
+    #candidatura-container, 
+    #verbali-candidatura-container, 
+    #verbali-candidatura-esterni, 
+    #verbali-candidatura-interni {
+        padding-left: 2em;
+    }
+
 }
 
 /*========================================*/
