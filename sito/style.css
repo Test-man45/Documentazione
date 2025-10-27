@@ -188,6 +188,7 @@ nav ul li a:hover {
     color: rgb(158, 166, 243);
 }
 
+
 @media screen and (max-width: 600px) {
     #CHI-SIAMO p {
         font-size: 1.3em;
