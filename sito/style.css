@@ -89,12 +89,12 @@ nav ul li a:hover {
 
 #docs-container h2,h3 {
     color: #9ea6f3;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
 }
 
 #docs-container a {
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     text-decoration: none;
     color: #cfd3f6;
